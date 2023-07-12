@@ -1,0 +1,739 @@
+<!-- #region head -->
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air | Strategic Agency</title>
+  <link rel="icon" href="images/icons/fav-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" 
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles/style.scss">
+</head>
+<!-- #endregion -->
+<body class="page__body">
+  <!-- #region header + menu -->
+  <header class="header">
+    <div class="header__content">
+      <div class="container">
+        <div class="panel panel--top">
+          <div class="panel__actions">
+            <a href="#" class="logo"></a>
+            
+            <a href="#menu" class="icon icon--menu"></a>
+            </a>
+          </div>
+          
+          <nav class="nav nav--hidden">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#about-us">About us</a>
+              </li>
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#services">Services</a>
+              </li>
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#approach">Approach</a>
+              </li>
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#testimonials">Testimonials</a>
+              </li>
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="#">Hire us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__strategic">
+          <h1 class="header__title">
+            Strategic Agency
+          </h1>
+          <p class="header__slogan">
+            We believe in the power of bold ideas that can solve business challenges.
+          </p>
+          <a
+            class="
+              header__button
+              button
+              button--header
+            "
+            href="#about-us"
+          >
+            Learn more
+          </a>
+        </div>
+
+        <div class="header__slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="header__slider-image" src="images/slider/slider-1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="header__slider-image" src="images/slider/slider-2.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="header__slider-image" src="images/slider/slider-4.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="header__slider-image" src="images/slider/slider-5.png" alt="">
+              </div>
+            </div>
+            <div class="header__slider-intro">
+              <div class="header__slider-buttons">
+                <div
+                  class="header__slider-button header__slider-button--prev"
+                  id="prevButton"
+                >
+                  <div
+                    class="
+                      icon
+                      icon--arrow
+                      icon--arrow-left
+                    "
+                  ></div>
+                </div>
+          
+                <div
+                  class="header__slider-button header__slider-button--next"
+                  id="nextButton"
+                >
+                  <div
+                    class="
+                      icon
+                      icon--arrow
+                      icon--arrow-right"
+                  ></div>
+                </div>
+              </div>
+          
+              <div class="header__slider-text">
+                <p class="header__slider-title">
+                  intro
+                </p>
+                <p class="header__slider-subtitle">
+                  By the same illusion which lifts the
+                  <br>
+                  horizon.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <aside class="page__menu menu" id="menu">
+    <div class="container">
+      <div class="menu__content">
+        <div class="panel panel--top">
+          <a href="#" class="logo"></a>
+
+          <a href="#" class="icon icon--close"></a>
+        </div>
+
+        <nav class="nav nav--menu">
+          <ul class="nav__list nav__list--menu">
+            <li class="nav__item">
+              <a class="nav__link" href="#about-us">About us</a>
+            </li>
+        
+            <li class="nav__item">
+              <a class="nav__link" href="#services">Services</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#approach">Approach</a>
+            </li>
+        
+            <li class="nav__item">
+              <a class="nav__link" href="#testimonials">Testimonials</a>
+            </li>
+        
+            <li class="nav__item">
+              <a class="nav__link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </aside>
+  <!-- endregion -->
+
+  <!-- #region main -->
+  <main class="main">
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <div class="about-us__content">
+          <h2 class="about-us__title section-title">
+            Who we are
+          </h2>
+
+          <p class="about-us__description">
+            We embrace a strategic approach to creative ideas. We are interested in people and human relationships. This is the main thing you need to know about us. We believe in the power of bold ideas that can solve business challenges.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="expertise">
+      <div class="container">
+        <div class="expertise__content">
+          <h2 
+            class="
+              expertise__title 
+              section-title 
+              section-title--large
+          ">
+            Our expertise
+          </h2>
+
+          <div class="expertise-cards">
+            <article class="expertise-card">
+              <img 
+                class="expertise-card__img" 
+                src="images/expertise/branding.png"
+                alt="Branding image"
+              >
+
+              <h3 class="expertise-card__title">Branding</h3>
+
+              <p class="expertise-card__description">
+                We create additional value for companies, products, services as well as verbal and visual ways to deliver it to the audience.
+              </p>
+            </article>
+            
+            <article class="expertise-card">
+              <img 
+                class="expertise-card__img" 
+                src="images/expertise/communication.png"
+                alt="Communication image"
+              >
+
+              <h3 class="expertise-card__title">Communication</h3>
+
+              <p class="expertise-card__description">
+                We strive to create communications that can increase media performance. We use everything — words, meanings, stories, art, movies.
+              </p>
+            </article>
+            
+            <article class="expertise-card">
+              <img 
+                class="expertise-card__img" 
+                src="images/expertise/strategy.png"
+                alt="Strategy image"
+              >
+
+              <h3 class="expertise-card__title">Strategy</h3>
+
+              <p class="expertise-card__description">
+                We create business growth strategies, from the moment of its birth to the achievement of the necessary business indicators.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__content">
+          <div class="services__text-part">
+            <div class="services__marker marker">Services</div>
+
+            <h2 class="services__title section-title section-title--line-height">
+              Air is a full service creative agency
+            </h2>
+
+            <p class="services__description">
+              Deep analytics, strong strategy and bright creative ideas. 
+              <br><br>
+              We are sure that first-rate job is possible only if all three components are united.
+            </p>
+          </div>
+
+          <div class="services__cards">
+            <article class="services__card services__card--001">
+              <div class="services__card-number services__card-number--001">
+                001
+              </div>
+              <p class="services__card-services">
+                Brand Development
+                <br>
+                Copywriting
+                <br>
+                Logo & Webite Design
+                <br>
+                Packaging
+              </p>
+
+              <a class="services__card-link" href="#">
+                <div class="services__card-arrow services__card-arrow--001" href="#">
+                  <div class="icon icon--arrow-services"></div>
+                </div>
+                <div class="services__card-button-text">Learn more</div>
+              </a>
+            </article>
+            
+            <article class="services__card services__card--002">
+              <div class="services__card-number services__card-number--002">
+                002
+              </div>
+              <p class="services__card-services">
+                Сontent Production
+                <br>
+                Graphic Design
+                <br>
+                Video Production
+                <br>
+                Post Production
+              </p>
+
+              <a class="services__card-link" href="#">
+                <div class="services__card-arrow services__card-arrow--002" href="#">
+                  <div class="icon icon--arrow-services"></div>
+                </div>
+                <div class="services__card-button-text">Learn more</div>
+              </a>
+            </article>
+            
+            <article class="services__card services__card--003">
+              <div class="services__card-number services__card-number--003">
+                003
+              </div>
+              <p class="services__card-services">
+                Marketing Strategy
+                <br>
+                Email Marketing
+                <br>
+                Paid Advertising
+                <br>
+                Blog Content & SEO
+              </p>
+
+              <a class="services__card-link" href="#">
+                <div class="services__card-arrow services__card-arrow--003" href="#">
+                  <div class="icon icon--arrow-services"></div>
+                </div>
+                <div class="services__card-button-text">Learn more</div>
+              </a>
+            </article>
+            
+            <article class="services__card services__card--004">
+              <div class="services__card-number services__card-number--004">
+                004
+              </div>
+              <p class="services__card-services">
+                Digital Communications
+                <br>
+                Influencer Marketing
+                <br>
+                Product Placements
+                <br>
+                Strategic Partnerships
+              </p>
+
+              <a class="services__card-link" href="#">
+                <div class="services__card-arrow services__card-arrow--004" href="#">
+                  <div class="icon icon--arrow-services"></div>
+                </div>
+                <div class="services__card-button-text">Learn more</div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="approach__content">
+        <div class="approach__text-part">
+          <div class="approach__marker marker">Approach</div>
+
+          <h2 class="approach__title section-title">
+            We strive to create meaningful projects
+          </h2>
+
+          <div class="approach__work-approaches">
+            <div class="approach__work-approach">
+              <div class="approach__img-box">
+                <div class="icon icon--speaker"></div>
+              </div>
+
+              <p class="approach__description">
+                We are sure that the brands built on a strong strategy, big ideas and simple human values always win. Only such brands change the game.
+              </p>
+            </div>
+            
+            <div class="approach__work-approach">
+              <div class="approach__img-box">
+                <div class="icon icon--calendar"></div>
+              </div>
+
+              <p class="approach__description">
+                No one can realize the idea as its creators. Therefore, we set up agency-based photo and video production departments.
+              </p>
+            </div>
+            
+            <div class="approach__work-approach">
+              <div class="approach__img-box">
+                <div class="icon icon--file-text"></div>
+              </div>
+
+              <p class="approach__description">
+                We strive to create meaningful projects that make brands valuable, and the world around us more aesthetic.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img 
+          class="approach__img" 
+          src="images/approach/approach-img.png" 
+          alt="Approach image"
+        >
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="testimonials__content" id="testimonials">
+          <div class="testimonials__title-part">
+            <div class="testimonials__marker marker">Testimonials</div>
+            <h2 class="section-title">What people say</h2>
+          </div>
+
+          <div class="testimonials__cards">
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo-container testimonials__card-photo-container--blue">
+                <img
+                  class="testimonials__card-photo"
+                  src="./images/testimonials/tal-gilad.png"
+                  alt="Tal Gilad"
+                >
+              </div>
+
+              <div class="icon icon--quotes-blue"></div>
+
+              <p class="testimonials__card-testimonial">
+                AIR’s ideas are refreshing and out of the box. Authentic team that focuses on the important path of the brand.
+              </p>
+
+              <h3 class="testimonials__card-name">
+                Tal Gilad
+              </h3>
+
+              <p class="testimonials__card-career">
+                Teach for America
+              </p>
+            </article>
+            
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo-container testimonials__card-photo-container--yellow">
+                <img
+                  class="testimonials__card-photo"
+                  src="./images/testimonials/azadeh-hawkins.png"
+                  alt="Azadeh Hawkins"
+                >
+              </div>
+
+              <div class="icon icon--quotes-yellow"></div>
+
+              <p class="testimonials__card-testimonial">
+                AIR is an exceptional agency that leads with creative talent, first-class account servicing.
+              </p>
+
+              <h3 class="testimonials__card-name">
+                Azadeh Hawkins
+              </h3>
+
+              <p class="testimonials__card-career">
+                Hawkins Consulting
+              </p>
+            </article>
+            
+            <article class="testimonials__card">
+              <div class="testimonials__card-photo-container testimonials__card-photo-container--red">
+                <img
+                  class="testimonials__card-photo"
+                  src="./images/testimonials/michel-grover.png"
+                  alt="Michel Grover"
+                >
+              </div>
+
+              <div class="icon icon--quotes-red"></div>
+
+              <p class="testimonials__card-testimonial">
+                AIR raises the agency bar to stratospheric heights on both creative output and client service.
+              </p>
+
+              <h3 class="testimonials__card-name">
+                Michel Grover
+              </h3>
+
+              <p class="testimonials__card-career">
+                Hulu
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="components">
+      <div class="container">
+        <div class="components__content">
+          <h2 class="components__title section-title section-title--large">
+            Vision, Passion, Results
+          </h2>
+
+          <p class="components__description">
+            We are sure that first-rate job is possible only if all three components are united.
+          </p>
+
+          <a href="#" class="components__button button">
+            Apply
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__content">
+          <div class="contacts__feedback">
+            <h2 class="contacts__title section-title">
+              Send us a message
+            </h2>
+
+            <form 
+              class="form" 
+              action="#"
+              method="post"
+              required
+            >
+              <input 
+                type="email" 
+                name="email" 
+                placeholder="Your e-mail" 
+                class="form-field"
+                required
+              >
+
+              <input 
+                type="text" 
+                name="text" 
+                placeholder="Your name" 
+                class="form-field"
+                required
+              >
+              
+              <textarea
+                name="text"
+                placeholder="Your message" 
+                class="form-field form-field--textarea"
+                required
+              ></textarea>
+
+              <button type="submit" class="form-button button">
+                Send
+              </button>
+            </form>
+          </div>
+          
+          <div class="contacts__contact-us contact-us" id="contact-us">
+            <h2 class="contacts__title section-title">
+              Contact us
+            </h2>
+
+            <div class="contact-us__contacts">
+              <div class="contact-us__contact">
+                <div class="marker marker--color">Call us</div>
+                
+                <a href="tel:654321987" class="contact-us__contact-info">
+                  654 321 987
+                </a>
+              </div>
+              
+              <div class="contact-us__contact">
+                <div class="marker marker--color">Visit us</div>
+                
+                <a
+                  href="thttps://goo.gl/maps/fi5FgESzehLcqTj48"
+                  class="contact-us__contact-info"
+                  target="_blank"
+                >
+                  2905 West Drive, Buffalo Grove
+                </a>
+              </div>
+              
+              <div class="contact-us__contact contact-us__contact--gap">
+                <div class="marker marker--color">our socials</div>
+                
+                <div class="contact-us__social-icons">
+                  <a
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    class="icon--social"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_11995_49)">
+                        <path
+                          d="M22.6667 4.66668C22.6667 4.48987 22.5964 4.3203 22.4714 4.19527C22.3464 4.07025 22.1768 4.00001 22 4.00001H18.6667C16.9882 3.9164 15.3448 4.50053 14.0956 5.62478C12.8465 6.74903 12.093 8.322 12 10V13.6H8.66667C8.48986 13.6 8.32029 13.6702 8.19526 13.7953C8.07024 13.9203 8 14.0899 8 14.2667V17.7333C8 17.9102 8.07024 18.0797 8.19526 18.2047C8.32029 18.3298 8.48986 18.4 8.66667 18.4H12V27.3333C12 27.5102 12.0702 27.6797 12.1953 27.8047C12.3203 27.9298 12.4899 28 12.6667 28H16.6667C16.8435 28 17.013 27.9298 17.1381 27.8047C17.2631 27.6797 17.3333 27.5102 17.3333 27.3333V18.4H20.8267C20.9749 18.4021 21.1197 18.3548 21.238 18.2654C21.3563 18.1761 21.4415 18.0499 21.48 17.9067L22.44 14.44C22.4665 14.3415 22.4701 14.2382 22.4504 14.1381C22.4308 14.038 22.3884 13.9438 22.3265 13.8626C22.2647 13.7815 22.1851 13.7156 22.0938 13.6701C22.0025 13.6246 21.902 13.6006 21.8 13.6H17.3333V10C17.3665 9.66998 17.5215 9.36416 17.768 9.14227C18.0146 8.92038 18.335 8.79835 18.6667 8.80001H22C22.1768 8.80001 22.3464 8.72977 22.4714 8.60475C22.5964 8.47972 22.6667 8.31015 22.6667 8.13334V4.66668Z"
+                          fill="white"
+                        />
+                      </g>
+              
+                      <defs>
+                        <clipPath id="clip0_11995_49">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  
+                  <a
+                    href="https://www.twitter.com"
+                    class="icon--social"
+                    target="_blank"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_22904_1935)">
+                        <path
+                          d="M10.7724 26.6671C12.744 26.733 14.7088 26.4031 16.5507 25.6968C18.3926 24.9905 20.0743 23.9221 21.4963 22.5548C22.9183 21.1875 24.0517 19.549 24.8297 17.7362C25.6077 15.9234 26.0144 13.973 26.0257 12.0004C26.9293 10.8823 27.6002 9.59482 27.9991 8.21372C28.0289 8.1046 28.0265 7.9892 27.9922 7.88142C27.9579 7.77363 27.8931 7.67806 27.8058 7.6062C27.7184 7.53435 27.6122 7.48928 27.4998 7.47642C27.3874 7.46356 27.2737 7.48346 27.1724 7.53372C26.6997 7.76126 26.1675 7.83475 25.6509 7.74386C25.1342 7.65296 24.6591 7.40225 24.2924 7.02705C23.8243 6.51449 23.2582 6.10109 22.6274 5.81135C21.9966 5.52162 21.3141 5.36143 20.6203 5.3403C19.9265 5.31916 19.2356 5.4375 18.5883 5.6883C17.9411 5.9391 17.3508 6.31727 16.8524 6.80038C16.17 7.46126 15.6702 8.28744 15.4015 9.19862C15.1328 10.1098 15.1044 11.075 15.3191 12.0004C10.8524 12.2671 7.78574 10.1471 5.33241 7.24038C5.25871 7.15692 5.1623 7.09672 5.05495 7.06714C4.9476 7.03757 4.83396 7.03989 4.72791 7.07382C4.62186 7.10776 4.52799 7.17184 4.45775 7.25825C4.38752 7.34465 4.34397 7.44964 4.33241 7.56038C3.86504 10.1529 4.20218 12.8264 5.29857 15.2218C6.39495 17.6172 8.19807 19.6197 10.4657 20.9604C8.94526 22.7042 6.81002 23.7933 4.50575 24.0004C4.38229 24.0209 4.26833 24.0794 4.17981 24.1679C4.09129 24.2563 4.03264 24.3702 4.01207 24.4937C3.9915 24.6171 4.01003 24.7439 4.06508 24.8563C4.12013 24.9686 4.20894 25.061 4.31908 25.1204C6.32377 26.1222 8.53139 26.6513 10.7724 26.6671"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_22904_1935">
+                          <rect
+                            width="32"
+                            height="32"
+                            fill="white"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  
+                  <a
+                    href="https://www.instagram.com"
+                    class="icon--social"
+                    target="_blank"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.0027 9.8467C12.5974 9.8467 9.85075 12.594 9.85075 16C9.85075 19.406 12.5974 22.1533 16.0027 22.1533C19.4079 22.1533 22.1546 19.406 22.1546 16C22.1546 12.594 19.4079 9.8467 16.0027 9.8467ZM16.0027 20.0004C13.8021 20.0004 12.0031 18.2064 12.0031 16C12.0031 13.7936 13.7968 11.9996 16.0027 11.9996C18.2086 11.9996 20.0022 13.7936 20.0022 16C20.0022 18.2064 18.2032 20.0004 16.0027 20.0004V20.0004ZM23.8412 9.595C23.8412 10.3929 23.1987 11.0302 22.4062 11.0302C21.6085 11.0302 20.9713 10.3876 20.9713 9.595C20.9713 8.80241 21.6138 8.15977 22.4062 8.15977C23.1987 8.15977 23.8412 8.80241 23.8412 9.595ZM27.9157 11.0517C27.8247 9.12909 27.3856 7.42609 25.9775 6.02298C24.5747 4.61988 22.8721 4.18074 20.9499 4.08435C18.9689 3.97188 13.0311 3.97188 11.0501 4.08435C9.1333 4.17539 7.43068 4.61453 6.02253 6.01763C4.61439 7.42073 4.1807 9.12373 4.08433 11.0463C3.97189 13.0278 3.97189 18.9669 4.08433 20.9483C4.17535 22.8709 4.61439 24.5739 6.02253 25.977C7.43068 27.3801 9.12794 27.8193 11.0501 27.9157C13.0311 28.0281 18.9689 28.0281 20.9499 27.9157C22.8721 27.8246 24.5747 27.3855 25.9775 25.977C27.3803 24.5739 27.8193 22.8709 27.9157 20.9483C28.0281 18.9669 28.0281 13.0331 27.9157 11.0517V11.0517ZM25.3564 23.0744C24.9388 24.1241 24.1303 24.9327 23.0755 25.3558C21.496 25.9824 17.7481 25.8378 16.0027 25.8378C14.2572 25.8378 10.504 25.977 8.92984 25.3558C7.88042 24.9381 7.07195 24.1294 6.64897 23.0744C6.02253 21.4946 6.16709 17.7458 6.16709 16C6.16709 14.2542 6.02789 10.5001 6.64897 8.92558C7.06659 7.87593 7.87507 7.06728 8.92984 6.6442C10.5093 6.01763 14.2572 6.16222 16.0027 6.16222C17.7481 6.16222 21.5014 6.02298 23.0755 6.6442C24.1249 7.06192 24.9334 7.87058 25.3564 8.92558C25.9828 10.5054 25.8383 14.2542 25.8383 16C25.8383 17.7458 25.9828 21.4999 25.3564 23.0744Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- #endregion -->
+
+  <!-- #region footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="panel panel--footer">
+        <a href="#" class="logo"></a>
+      
+        <nav class="nav">
+          <ul class="nav__list nav__list--footer">
+            <li class="nav__item">
+              <a class="nav__link" href="#about-us">About us</a>
+            </li>
+      
+            <li class="nav__item">
+              <a class="nav__link" href="#services">Services</a>
+            </li>
+      
+            <li class="nav__item">
+              <a class="nav__link" href="#approach">Approach</a>
+            </li>
+      
+            <li class="nav__item">
+              <a class="nav__link" href="#testimonials">Testimonials</a>
+            </li>
+      
+            <li class="nav__item">
+              <a class="nav__link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+  <!-- #endregion -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".header__slider-button--next",
+        prevEl: ".header__slider-button--prev",
+      },
+    });
+  </script>
+</body>
+</html>
